@@ -14,7 +14,6 @@ public:
 
 	unsigned int GetVertCount() { return verts; }
 private:
-public:
 	GLuint buffers[1];
 	unsigned int verts;
 
@@ -30,7 +29,6 @@ public:
 
 	unsigned int GetVertCount() { return BaseMesh->GetVertCount(); }
 private:
-public:
 	std::shared_ptr<Mesh> BaseMesh;
 
 	GLuint VAId;
